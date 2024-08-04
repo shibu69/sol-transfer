@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgba(52, 2, 98, 0.662);
+  flex-direction: column;
+}
+
+button{
+  margin: 30px;
+  font-size: 16px;
+  padding: 15px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.disconnect{
+  background-color: red;
+}
+
